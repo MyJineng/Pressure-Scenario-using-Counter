@@ -12,8 +12,3 @@ while pressure < 3:
         break
 x = 1
 print(f"{pressure}psi, Danger! pressure too high. automatic shutdown initiated!: {valve(x)}")
-
-#1psi, everything's okay: Valve open.
-#2psi, everything's okay: Valve open.
-#3psi, Danger! pressure too high. automatic shutdown initiated!: Valve closed.
-
